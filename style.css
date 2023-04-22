@@ -1,0 +1,38 @@
+.body
+{
+    margin: 0;
+}
+
+
+.main
+{
+    padding: 100px 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: #EEF5FF;
+}
+
+.l-page-section
+{
+    position: relative;
+    flex-basis: content;
+    height: 1000px;
+    width: 760px;
+}
+
+.l-page-section__logo
+{
+    width: 141px;
+    height: 28px;
+    position: absolute;
+    left:49px;
+    top:44px;
+}
+
+.r-page-section
+{
+    box-shadow: 40px 0px 59px -60px #8B91B5;
+    background-color: white;
+    width: 680px;
+    height: 1000px;
+}
